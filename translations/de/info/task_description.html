@@ -1,0 +1,42 @@
+<!-- Describe task in general -->
+
+<p>
+    Positive ganze Zahlen können auf verschiedene Weise als Summen aufeinander folgender positiver Zahlen ausgedrückt werden. Zum Beispiel kann 42 auf vier verschiedene Arten als eine solche Summe ausgedrückt werden:(a) 3+4+5+6+7+8+9, (b) 9+10+11+12, (c) 13+14+15 und (d) 42. Wie die letzte Lösung (d) zeigt, lässt sich jede positive ganze Zahl trivialerweise immer als eine Singularsumme ausdrücken, die nur aus dieser ganzen Zahl besteht.
+</p>
+
+<p>Berechnen Sie, auf wie viele verschiedene Arten sie als Summe aufeinanderfolgender positiver Ganzzahlen ausgedrückt werden kann.</p>
+
+<!-- Explain input and output values -->
+<p>
+   <strong>Eingabe: </strong> Int.
+</p>
+
+<p>
+   <strong>Ausgabe: </strong> Int. 
+</p>
+
+
+<!-- Put some usage examples -->
+<div class="for_info_only">
+    <p>
+        <strong>Beispiel:</strong>
+    </p>
+
+{% if interpreter.slug == "js-node" %}
+<pre class="brush: javascript">countConsecutiveSummers(42) == 4
+countConsecutiveSummers(99) == 6
+</pre>
+{% else %}
+<pre class="brush: python">count_consecutive_summers(42) == 4
+count_consecutive_summers(99) == 6
+</pre>
+{% endif %}
+</div>
+
+<p>
+    <strong>Vorbedingung:</strong>
+    <i>Die Eingabe ist immer eine positive ganze Zahl.</i>
+</p>
+
+<p><i>Die Aufgabe wurde aus Python CCPS 109 Herbst 2018 übernommen. Sie wird für die Ryerson Chang School of Continuing Education unterrichtet von <a href="https://github.com/ikokkari">Ilkka Kokkarinen</a></i></p>
+
